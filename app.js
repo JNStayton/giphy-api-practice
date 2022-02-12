@@ -2,7 +2,7 @@ console.log("Let's get this party started!");
 
 async function getGif(input) {
 	try {
-		const res = await axios.get('http://api.giphy.com/v1/gifs/search', {
+		const res = await axios.get('https://api.giphy.com/v1/gifs/search', {
 			params: {
 				q: input,
 				api_key: 'pNg1Af1TJEVwawZl33yt7U5MxcnElFS9'
